@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_home"
+        android:title="Home"
+        android:icon="@drawable/ic_grid"
+        android:checked="true"
+        android:iconTint="@color/home"/>
+
+    <item
+        android:id="@+id/main_CLock"
+        android:title="Clock"
+        android:icon="@drawable/ic_clock"
+        android:checked="false"
+        android:iconTint="@color/logger"/>
+    <item
+        android:id="@+id/main_folder"
+        android:title="Documents"
+        android:icon="@drawable/ic_folder"
+        android:checked="false"
+        android:iconTint="@color/documents"/>
+    <item
+        android:id="@+id/main_barchart"
+        android:title="Settings"
+        android:icon="@drawable/ic_barchart"
+        android:checked="false"
+        android:iconTint="@color/settings"/>
+
+
+
+</menu>
